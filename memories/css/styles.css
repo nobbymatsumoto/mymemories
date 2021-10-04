@@ -1,49 +1,67 @@
 html {
-  margin: 0;
+  margin:0;
 }
 
 body {
-  margin: 0;
+  margin:0;
 }
 
 header {
+  display:flex;
   position:fixed;
-  margin-left: 1000px;
+  width:100%;
+  z-index: 2;
   background-color: white;
-  font-size:20px;
 }
 
-header a, header p {
+header nav {
+  margin-left:auto;
   margin-top:0;
   margin-bottom:0;
 }
 
-img {
-  width:24.5%;
+header nav ul {
+  display:flex;
+  margin:0;
+}
+
+header nav ul li {
+  list-style: none;
+  width:70px;
+  margin:0 10px;
+}
+
+main {
+  position:absolute;
+  width:100%;
+  top:20px;
+  z-index: 1;
+}
+
+main img {
+  width:99%;
+}
+
+main h1 {
+  margin:0;
   vertical-align: top;
-  margin-bottom: 1px;
+  margin-bottom:1px;
 }
 
-@media (min-width:600px) and (max-width:800px) {
-  img {
-    width:48%;
-  }
-
-}
-
-@media (max-width:600px) {
-  img {
-    width:100%;
+@media (max-width:599px) {
+  main img {
+    width:99%;
   }
 }
 
-@media (max-width:1200px) {
-  header {
-    margin-left:340px;
+@media (min-width:600px) and (max-width:799px) {
+  main img {
+    width:49%;
   }
 }
 
-h1,p {
-  margin-left: 3px;
+@media (min-width:800px) {
+  main img {
+    width:24.3%;
+  }
 }
-
