@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <title>ログイン</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <ul>
-    <li>
-      <p>2021年</p>
-      <ul>
-        <li>
-          <p>9月</p>
-          <ul>
-            <li>
-              <a href="memories/20210926.html">
-              <p>9月26日</p>
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <p>10月</p>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <p>2022年</p>
-    </li>
-  </ul>
+    <div>
+        <h1>ログイン</h1>
+    </div>
+
+    <div>
+
+        <!--フォーム-->
+        <form name="login_form">
+            <center>
+                <h1 class="contact-title">ログイン</h1>
+                <p>ID、Passwordをご入力の上、「認証」ボタンをクリックしてください。</p>
+            </center>
+            <div>
+
+                <center>
+                    <div>
+                        <input type="id" name="id" placeholder="ID">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="password" name="pass" placeholder="Password" onchange="nextPage()">
+                    </div>
+                </center>
+
+            </div>
+            <button type="button" onClick="nextPage();">認証</button>
+        </form>
+
+        <!--ログイン処理-->
+        <script language="JavaScript" type="text/javascript">
+            function nextPage() {
+                id = document.login_form.id.value
+                pwd = document.login_form.pass.value;
+                location.href = id + pwd + ".html";
+            }
+        </script>
+
+    </div>
+
 </body>
+
 </html>
