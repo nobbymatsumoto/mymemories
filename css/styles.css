@@ -1,0 +1,100 @@
+li {
+  list-style: none;
+}
+
+input,label {
+  vertical-align: top;
+}
+
+.month, .Jan, .Feb, .Mar, .Apr, .May, .Jun, .Jul, .Aug, .Sep, .Oct, .Nov, .Dec {
+  display:none;
+}
+
+input:checked ~ .month, 
+input:checked ~ .Jan,
+input:checked ~ .Feb, 
+input:checked ~ .Mar,
+input:checked ~ .Apr,
+input:checked ~ .May,
+input:checked ~ .Jun,
+input:checked ~ .Jul,
+input:checked ~ .Aug,
+input:checked ~ .Sep,
+input:checked ~ .Oct,
+input:checked ~ .Nov,
+input:checked ~ .Dec {
+    display: inline-block;
+}
+
+html {
+  margin:0;
+}
+
+body {
+  margin:0;
+}
+
+header {
+  display:flex;
+  position:fixed;
+  width:100%;
+  z-index: 2;
+  background-color: white;
+}
+
+header nav {
+  margin-left:auto;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+header nav ul {
+  display:flex;
+  margin:0;
+}
+
+header nav ul li {
+  list-style: none;
+  width:70px;
+  margin:0 10px;
+}
+
+main {
+  position:absolute;
+  width:100%;
+  top:20px;
+  z-index: 1;
+}
+
+main img {
+  width:99%;
+}
+
+main h1 {
+  margin:0;
+  vertical-align: top;
+  margin-bottom:1px;
+}
+
+@media (max-width:599px) {
+  main img {
+    width:99%;
+  }
+}
+
+@media (min-width:600px) and (max-width:799px) {
+  main img {
+    width:49%;
+  }
+}
+
+@media (min-width:800px) {
+  main img {
+    width:24.3%;
+  }
+}
+
+
+
+
+
