@@ -30,7 +30,7 @@ html {
   margin:0;
 }
 
-body {
+.main {
   margin:0;
   background-image: url(../202107/img/22/1.JPG);
   font-family:Arial, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ body {
   color:white;
 }
 
-a {
+.main a {
   font-family:Arial, Helvetica, sans-serif;
   font-size:30px;
   color:white; 
@@ -72,7 +72,7 @@ header nav ul li {
 main {
   position:absolute;
   width:100%;
-  top:20px;
+  top:30px;
   z-index: 1;
 }
 
