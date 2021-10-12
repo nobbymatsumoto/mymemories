@@ -33,6 +33,15 @@ html {
 body {
   margin:0;
   background-image: url(../202107/img/22/1.JPG);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:30px;
+  color:white;
+}
+
+a {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:30px;
+  color:white; 
 }
 
 header {
@@ -98,6 +107,23 @@ main h1 {
 h1 a,p {
   margin-left:10px;
 }
+
+label,a {
+  text-shadow: 1px 2px 3px #808080;
+}
+
+.month{
+  font-size: 20px;
+}
+
+.month a {
+  font-size: 20px;
+}
+
+.month p {
+  margin:0;
+}
+
 
 
 
