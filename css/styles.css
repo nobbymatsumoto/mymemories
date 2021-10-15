@@ -2,8 +2,12 @@ li {
   list-style: none;
 }
 
-input,label,img {
+img {
   vertical-align: top;
+}
+
+input {
+  vertical-align:text-top;
 }
 
 img {
@@ -12,6 +16,7 @@ img {
 
 .month, .Jan, .Feb, .Mar, .Apr, .May, .Jun, .Jul, .Aug, .Sep, .Oct, .Nov, .Dec {
   display:none;
+  margin-bottom:10px;
 }
 
 input:checked ~ .month, 
@@ -27,7 +32,7 @@ input:checked ~ .Sep,
 input:checked ~ .Oct,
 input:checked ~ .Nov,
 input:checked ~ .Dec {
-    display: inline-block;
+    display: block;
 }
 
 html {
@@ -70,7 +75,7 @@ header nav ul {
 header nav ul li {
   list-style: none;
   width:70px;
-  margin:0 10px;
+  margin:10px 10px;
 }
 
 main {
@@ -121,7 +126,8 @@ label,a {
 }
 
 .month a {
-  font-size: 20px;
+  font-size: 18px;
+  padding-left:20px;
 }
 
 .month p {
@@ -131,6 +137,11 @@ label,a {
 .dis_none {
   display: none;
 }
+
+ul {
+  padding-left:20px;
+}
+
 
 
 
