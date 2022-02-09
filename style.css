@@ -1,0 +1,24 @@
+h1 {
+  font-size:50px;
+}
+
+p {
+  font-size:35px;
+}
+
+.id,.pass{
+  width:80%;
+  height:50px;
+  font-size:20px;
+}
+
+.button {
+  margin-top:20px;
+  text-align: center;
+}
+
+button {
+  width:80%;
+  height:50px;
+  font-size:20px;
+}
