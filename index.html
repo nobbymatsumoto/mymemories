@@ -8,9 +8,6 @@
 </head>
 
 <body>
-    <div>
-        <h1>ログイン</h1>
-    </div>
 
     <div>
 
@@ -24,16 +21,18 @@
 
                 <center>
                     <div>
-                        <input type="id" name="id" placeholder="ID">
+                        <input type="id" name="id" placeholder="ID" class="id">
                     </div>
                     <br>
                     <div>
-                        <input type="password" name="pass" placeholder="Password" onchange="nextPage()">
+                        <input type="password" name="pass" placeholder="Password" onchange="nextPage()" class="pass">
                     </div>
                 </center>
 
             </div>
-            <button type="button" onClick="nextPage();">認証</button>
+            <div class="button">
+                <button type="button" onClick="nextPage();">認証</button>
+            </div>
         </form>
 
         <!--ログイン処理-->
