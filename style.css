@@ -6,6 +6,10 @@ p {
   font-size:35px;
 }
 
+.id {
+  margin-top:50px;
+}
+
 .id,.pass{
   width:80%;
   height:50px;
@@ -18,7 +22,8 @@ p {
 }
 
 button {
-  width:80%;
-  height:50px;
+  width:81%;
+  height:55px;
   font-size:20px;
+  padding:0;
 }
