@@ -1,3 +1,12 @@
+.container {
+  border:1px solid rgb(170, 168, 168);
+  width:50%;
+  margin:200px auto 0 auto;
+  padding:50px 0;
+  border-radius:5px;
+
+}
+
 h1 {
   font-size:50px;
 }
@@ -6,12 +15,8 @@ p {
   font-size:35px;
 }
 
-.id {
-  margin-top:50px;
-}
-
 .id,.pass{
-  width:80%;
+  width:45%;
   height:50px;
   font-size:20px;
 }
@@ -22,7 +27,7 @@ p {
 }
 
 button {
-  width:81%;
+  width:45%;
   height:55px;
   font-size:20px;
   padding:0;
